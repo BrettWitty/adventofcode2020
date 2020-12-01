@@ -9,3 +9,17 @@ I'm using:
 ## Python version
 
 Under `python/` I'm attempting the same thing (without automation) in Python because I'm super-comfortable there.
+
+
+## Day 1 solution
+
+Hitting this problem directly isn't too hard. Find all combinations. Filter on `a+b==2020` and early-return with `a*b`.
+
+You can however spend a little time in the file-reading to partition the numbers into odds and evens. Then you can search a smaller space because 2020 is even.
+
+2020 (Even) = Even + Even = Odd + Odd
+
+Also:
+Even = Even + Even + Even = Even + Odd + Odd
+
+So you can iterate on triples of evens, or pairs of odds with an even.
