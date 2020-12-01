@@ -13,6 +13,6 @@ So you can iterate on triples of evens, or pairs of odds with an even.
 
 ## Post-sleep realizations
 
-I was very much asleep last night, especially when coding! /Why am I doing all these linear scans?!?/
+I was very much asleep last night, especially when coding! **Why am I doing all these linear scans?!?**
 
 I replaced the linear scans with hash lookups and it's vastly improved timings. I also caught a dumb error with how the partition function split the two lists (evens first then odds).
