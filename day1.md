@@ -16,3 +16,7 @@ So you can iterate on triples of evens, or pairs of odds with an even.
 I was very much asleep last night, especially when coding! **Why am I doing all these linear scans?!?**
 
 I replaced the linear scans with hash lookups and it's vastly improved timings. I also caught a dumb error with how the partition function split the two lists (evens first then odds).
+
+## Further work
+
+You could probably add in some early-aborts into the loops, knowing your hard limit of 2020 (and that the input space is between 0 and 2020). This might require you to have the sets in ascending order.
