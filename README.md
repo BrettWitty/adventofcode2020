@@ -15,4 +15,5 @@ Under `python/` I'm attempting the same thing (without automation) in Python bec
 
 I'll attempt to capture my thinking on each problem.
 
-1. [Day 1](day1.md)
+1. [Day 1](day1.md) - Report Repair
+2. [Day 2](day2.md) - Password Philosophy
