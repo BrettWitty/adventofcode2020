@@ -35,7 +35,7 @@ pub fn solve_part1(input: &[u32]) -> u32 {
 #[aoc(day1,part2,direct)]
 pub fn solve_part2(input: &[u32]) -> u32 {
 
-    // I tried a pure itertor version but it was way uglier and slower!
+    // I tried a pure iterator version but it was way uglier and slower!
     
     for v in input.iter().combinations(3) {
         if v[0] + v[1] + v[2] == 2020 {
