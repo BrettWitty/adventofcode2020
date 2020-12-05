@@ -18,3 +18,4 @@ I'll attempt to capture my thinking on each problem.
 1. [Day 1](day1.md) - Report Repair
 2. [Day 2](day2.md) - Password Philosophy
 3. [Day 3](day3.md) - Toboggan Trajectory
+4. [Day 4](day4.md) - Passport Processing
