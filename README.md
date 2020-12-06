@@ -19,3 +19,5 @@ I'll attempt to capture my thinking on each problem.
 2. [Day 2](day2.md) - Password Philosophy
 3. [Day 3](day3.md) - Toboggan Trajectory
 4. [Day 4](day4.md) - Passport Processing
+4. [Day 5](day5.md) - Binary Boarding
+4. [Day 6](day6.md) - Custom Customs
